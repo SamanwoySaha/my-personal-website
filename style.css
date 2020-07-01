@@ -1,6 +1,10 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    color: #1e2226;
+}
+.clr {
+    clear: both;
 }
 h1 {
     font-size: 50px;
@@ -52,4 +56,65 @@ section {
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
+}
+.heading {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.photo img{
+    width: 31.33%;
+    float: left;
+    padding: 0 1%;
+}
+.latest-work {
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 500px;
+}
+.client-review{
+    text-align: center;
+    height: 600px;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+#designation {
+    font-size: 12px;
+    margin-top: -15px;
+    padding-block-end: 20px;
+}
+.client-review blockquote p{
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #1e2226;
+}
+.contact {
+    width: 40%;
+    background-image: linear-gradient(135deg, #ed4b6f, #ec5197);
+    padding: 30px 100px 40px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 80px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.contact p{
+    color: white;
+}
+#message-link{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+footer p {
+    text-align: center;
+    font-size: 12px;
+    padding: 20px 0px;
 }
