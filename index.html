@@ -3,9 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>My Personal Website</title>
 </head>
 <body>
-    
+    <!-- top-banner start -->
+    <section class="top-banner">
+        <div class="half-width text-content">
+            <h2>Hello I'm</h2>
+            <h1 class="name-highlight">Jack Smith</h1>
+            <p>You might saw me jumping, climbing buildings and stopping trains. But nobody pays me a dime for that work.</p>
+            <a class="link-button" target="_blank" href="https://linkedin.com/company/programminghero/">HIRE ME</a>
+        </div>
+        <div class="half-width">
+            <img src="images/peter.png" alt="peter_image">
+        </div>
+    </section>
+    <!-- top-banner end -->
+
+    <!-- biography start -->
+    <section class="biography">
+        <div class="half-width">
+            <img src="images/peter_dream.png" alt="peter_dream_image">
+        </div>
+        <div class="half-width text-content">
+            <h2>Biography</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae atque commodi nisi sunt eaque molestias unde, illum tenetur. Porro error natus voluptates officia doloremque facilis sed quis quasi enim?</p>
+            <a class="link-button" target="_blank" href="https://linkedin.com/company/programminghero/">DOWNLOAD CV</a>
+        </div>
+    </section>
+    <!-- biography end -->
+
+    <!-- latest-work start -->
+    <section class="latest-work clear">
+        <h2 class="heading">My Latest Work</h2>
+        <div class="work-display">
+            <div class="photo">
+                <img src="images/latest-work/work-1.png" alt="work-1">
+            </div>
+            <div class="photo">
+                <img src="images/latest-work/work-2.jpg" alt="work-2">
+            </div>
+            <div class="photo">
+                <img src="images/latest-work/work-3.jpg" alt="work-3">
+            </div>
+        </div>
+    </section>
+    <!-- latest-work end -->
+
+    <!-- client-review start -->
+    <section class="client-review">
+        <div>
+            <h2 class="heading">What Client are say</h2>
+            <h4>Bruce Moccy</h4>
+            <p id="designation">Founder &amp; CEO Alies</p>
+            <blockquote>
+                <p>"Lorem Ipsum is simply dummy text of</p>
+                <p>the printing and typesetting industry. Lorem Ipsum"</p>
+            </blockquote>
+        </div>
+        <div class="contact">
+            <p>Leave me a message in the</p>
+            <p id="message-link">programming.hero1@gmail.com</p>
+            <form>
+                <label for="name">Name: </label><br>
+                <input class="input-content" type="text" placeholder="Full Name"><br>
+                <label for="Email">Email: </label><br>
+                <input class="input-content" type="email" placeholder="Email"><br>
+                <label for="message">Message: </label><br>
+                <textarea class="input-content" name="message" cols="15" rows="7" placeholder="Leave your message here"></textarea><br>
+                <button>Submit</button>
+            </form>
+        </div>
+    </section>
+    <!-- client review end -->
+
+    <!-- footer start -->
+    <footer>
+        <p>Programming Hero initiative. 2020 All rights reserved.</p>
+    </footer>
+    <!-- footer end -->
 </body>
 </html>
