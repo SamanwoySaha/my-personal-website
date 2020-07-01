@@ -29,7 +29,7 @@ section {
 }
 .name-highlight {
     color: #ec4c7a;
-    font-weight: 800;
+    font-weight: 700;
 }
 .link-button {
     text-decoration: none;
@@ -40,6 +40,14 @@ section {
     font-weight: 600;
     display: inline-block;
     margin-top: 20px;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+}
+.link-button:hover{
+    background-image: linear-gradient(45deg, #09f4c5, #3d92fa);
 }
 .text-content {
     padding-left: 12%;
@@ -65,17 +73,25 @@ section {
     width: 31.33%;
     float: left;
     padding: 0 1%;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+}
+.photo img:hover{
+    box-shadow: 3px 3px 10px gray;
 }
 .latest-work {
     background-image: url(images/latest-work-bg.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
-    height: 500px;
+    height: 450px;
 }
 .client-review{
     text-align: center;
-    height: 600px;
+    height: 900px;
     background-image: url(images/footer-bg.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -112,6 +128,55 @@ section {
     font-size: 25px;
     color: white;
     font-weight: 600;
+}
+.input-content {
+    width: 80%;
+    background: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px white;
+    margin: 5px 0px;
+}
+input {
+    height: 40px;
+    color: #222;
+    font-weight: 500;
+}
+input:focus {
+    box-shadow: 4px 4px 8px white;
+}
+textarea:focus {
+    box-shadow: 4px 4px 8px white;
+}
+
+::placeholder{
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+label {
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 16px;
+}
+button{
+    padding: 10px 30px;
+    font-weight: 700;
+    color: #ed4b6f;
+    background: white;
+    border-radius: 10px;
+    border: 2px solid #ec5197;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+}
+button:hover {
+    background-image: linear-gradient(45deg, #3d92fa, #09f4c5);
+    color: white;
 }
 footer p {
     text-align: center;
